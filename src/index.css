@@ -1,0 +1,58 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  padding-top: 56px;
+}
+
+#home {
+  background-color: rgba(162, 183, 66, 0.402);
+  height: calc(100vh - 56px);
+  background-image: url("https://wallpapersok.com/images/hd/red-poster-cristiano-ronaldo-hd-4k-qung8px34lq7o2f8.jpg");
+  background-size: cover;
+  scroll-margin-top: 56px;
+}
+#home:target::before {
+  content: "";
+  display: block;
+
+  /* height: 56px; */
+  /* Match navbar height */
+  /* padding-top: -56px; */
+}
+
+.aboutImage {
+  height: 500px;
+}
+
+#about:target::before {
+  content: "";
+  display: block;
+
+  height: 56px;
+  /* Match navbar height */
+  /* padding-top: -56px; */
+}
+#achievements:target::before {
+  content: "";
+  display: block;
+  height: 56px;
+}
+#gallery:target::before {
+  content: "";
+  display: block;
+  height: 56px;
+}
+.cards {
+  height: 146px;
+}
+.gallery img {
+  height: 500px;
+  width: 100%;
+}
+.footer {
+  background-color: black;
+}
