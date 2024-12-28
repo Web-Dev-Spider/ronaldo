@@ -8,8 +8,8 @@ function Achievments() {
   return (
     <div className="container">
       <h2 className="text-center">Achievements</h2>
-      <div className="row">
-        <div className="col-md-4">
+      <div className="row g-3">
+        <div className="col-md-3">
           <Card>
             <Card.Body className="text-center">
               <Card.Title>

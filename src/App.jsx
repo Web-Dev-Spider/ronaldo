@@ -15,7 +15,7 @@ function App() {
 
       <div
         id="home"
-        className="d-flex flex-column justify-content-center align-items-center"
+        className="d-flex justify-content-center align-items-center"
       >
         <Home />
       </div>
@@ -26,9 +26,9 @@ function App() {
       <div id="achievements" className="py-4">
         <Achievments />
       </div>
-      <div id="gallery" className="gallery my-4">
+      <section id="gallery" className="gallery my-4 bg-light">
         <Gallery />
-      </div>
+      </section>
       <div id="contact">
         <Contact />
       </div>

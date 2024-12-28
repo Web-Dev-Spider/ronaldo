@@ -2,9 +2,9 @@ import React from "react";
 
 function Gallery() {
   return (
-    <div className="container bg-light">
-      <h3 className="text-center mb-2">Gallery</h3>
-      <div className="row">
+    <div className="container">
+      <h3 className="text-center">Gallery</h3>
+      <div className="row g-3">
         <div className="col-md-4">
           <img
             src="https://i.pinimg.com/474x/f2/53/43/f253438604294c88db8c6a54626cd98f.jpg"
